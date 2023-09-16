@@ -1,0 +1,89 @@
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .leftSide b{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.navbar .leftSide img {
+  width: 70px;
+}
+
+.navbar .rightSide {
+  flex: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 220px;
+}
+
+.navbar a {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar .rightSide button {
+  background-color: yellow;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+.navbar .btn button{
+  width: 220px;
+  border-radius: 25px;
+  background-color: orange;
+  color: white;
+  padding: 5px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-color: black;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+

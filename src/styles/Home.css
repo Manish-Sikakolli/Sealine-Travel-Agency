@@ -1,0 +1,113 @@
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float : left;
+  align-items: left;
+  flex-direction: row;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.headerContainer {
+  width: 50%;
+}
+
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 60px;
+  font-weight: 50;
+  color: rgb(252, 247, 247);
+}
+
+.headerContainer p {
+  padding: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(250, 245, 245);
+}
+
+.headerContainer button {
+  color: rgb(252, 247, 247);
+  border: none;
+  border-radius: 25px;
+  border: 2px solid rgb(247, 244, 244);
+  cursor: pointer;
+  background-color: transparent;
+  justify-content: center;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.form{
+  width: 100%;
+  display: flex;
+  margin-bottom : 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.home2{
+  float : right;
+}
+.formHome{
+  background-color: rgb(241, 235, 235);
+  border-radius: 10px;
+  width: 100%;
+}
+.home2 select{
+  display: block;
+  border-radius: 20px;
+  width: 300px;
+  padding: 5px 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+.formFlex{
+  border-radius: 20px;
+  padding: 5px 28px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+}
+.formFlex input{
+  text-align: center;
+}
+.formFlex select{
+  width: 150px;
+}
+.home2 button{
+  background-color: orange;
+  border-radius: 25px;
+  width: 300px;;
+}
+.inpDate input{
+  width: 150px;
+  border-radius: 25px;
+}
+.formFlex{
+  padding-left: 2px;
+}
+.formFlex label {
+  margin-right: 20px;
+}
+.formCustom{
+  display: flex;
+}
+.quantity-control button{
+  background-color: rgb(241, 235, 235);
+  color: black;
+  width: 70px;
+  border: 2px black;
+}
+.formCustom label{
+
+}
