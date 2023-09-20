@@ -114,3 +114,6 @@
   width: 70px;
   border: 2px black;
 }
+.buttonStyling{
+  display: flex;
+}

@@ -86,7 +86,9 @@ function Form(){
             </div>
           </label>
         </div>
+        <div className="buttonStyling">
         <button className="search-button">SEARCH FLIGHT</button>
+        </div>
       </form>
     </div>
     );
