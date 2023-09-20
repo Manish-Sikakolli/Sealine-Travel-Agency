@@ -102,12 +102,15 @@
 .formCustom{
   display: flex;
 }
+.formCustom label{
+  padding-left: 2px;
+}
+.formCustom button{
+  margin-top: 5px;
+}
 .quantity-control button{
   background-color: rgb(241, 235, 235);
   color: black;
   width: 70px;
   border: 2px black;
-}
-.formCustom label{
-
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 function Form(){
+  const onDateFocus = (e) => (e.target.type = "date");
   const [adults, setAdults] = useState(0);
   const [children, setChildren] = useState(0);
 
@@ -51,7 +52,11 @@ function Form(){
         <div className="formFlex">
           <label className="inpDate">
             Depart Date
-            <input type="date" placeholder="Choose the date" />
+            <input
+              onFocus={onDateFocus}
+              type="text"
+              placeholder="choose the date"
+            />
           </label>
           <label>
             Duration
